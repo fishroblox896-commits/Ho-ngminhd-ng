@@ -31,7 +31,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
 ------ Tab
      local Tab1o = MakeTab({Name = "Script Farm"})
-     local Tab2o = MakeTab({Name = "Quan tâm hud"})
+     local Tab2o = MakeTab({Name = "script kaitun"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -48,6 +48,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/r
   AddButton(Tab1o, {
      Name = "dungroblox",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"))()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/minhdungOnyx/refs/heads/main/minhdungOnyx.lua"))()
   end
   })
